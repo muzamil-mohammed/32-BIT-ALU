@@ -1,0 +1,4 @@
+alu_sim
+alu_int_sim
+*.vcd
+.vvp
