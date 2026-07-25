@@ -13,7 +13,7 @@ control unit.
 | `alu_tb.v` | Unit testbench — drives the ALU directly with 28 checks covering every op and edge case (overflow, carry, div-by-zero, negative numbers, etc). |
 | `alu_integration_tb.v` | Integration testbench — drives `alu_control` → `alu_32bit` together, the way a real datapath would, across 17 checks. |
 
-## Supported operations (`ALUControl`)
+## Supported operations (`ALUControl`)<img width="1188" height="821" alt=" ALU 32-waveform" src="https://github.com/user-attachments/assets/f3b0fce7-9d8d-4d9a-a211-dc28eab810ab" /><img width="1188" height="821" alt=" ALU 32-waveform" src="https://github.com/user-attachments/assets/45e355fd-dd72-4969-b5a7-c7d43507b165" />
 
 | Code | Op | Result |
 |---|---|---|
